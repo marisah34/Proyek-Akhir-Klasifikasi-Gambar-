@@ -9,7 +9,7 @@ Import Library Menggunakan berbagai library seperti TensorFlow, Keras, scikit-im
 
 **2. Persiapan Data**
 
-- Load dataset dari file ZIP.
+- Load dataset dari file ZIP. Bisa di di download disini https://www.kaggle.com/datasets/vencerlanz09/plastic-paper-garbage-bag-synthetic-images/code 
 
 - Melakukan eksplorasi data awal.
 
