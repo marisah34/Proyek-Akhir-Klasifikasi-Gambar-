@@ -3,17 +3,17 @@
 # Deskripsi
 Proyek ini bertujuan untuk membangun model klasifikasi gambar yang dapat membedakan tiga jenis objek: Plastic, Paper, dan Garbage Bag. Proyek dikembangkan menggunakan TensorFlow dan Keras, dengan tahapan mulai dari persiapan data hingga konversi model ke berbagai format deployment.
 
-1. Struktur Proyek
-Import Library
-Menggunakan berbagai library seperti TensorFlow, Keras, scikit-image, OpenCV, dan lainnya untuk preprocessing dan training.
+**1. Struktur Proyek**
+   
+Import Library Menggunakan berbagai library seperti TensorFlow, Keras, scikit-image, OpenCV, dan lainnya untuk preprocessing dan training.
 
-2. Persiapan Data
+**2. Persiapan Data**
 
 - Load dataset dari file ZIP.
 
 - Melakukan eksplorasi data awal.
 
-3. Preprocessing Data
+**3. Preprocessing Data**
 
 - Resize gambar.
 
@@ -21,7 +21,7 @@ Menggunakan berbagai library seperti TensorFlow, Keras, scikit-image, OpenCV, da
 
 - Split dataset menjadi training, validation, dan testing.
 
-4. Pembangunan Model
+**4. Pembangunan Model**
 
 - Membuat model CNN menggunakan Sequential.
 
@@ -29,13 +29,13 @@ Menggunakan berbagai library seperti TensorFlow, Keras, scikit-image, OpenCV, da
 
 - Menerapkan callbacks seperti EarlyStopping dan ModelCheckpoint.
 
-5. Evaluasi Model
+**5. Evaluasi Model**
 
 - Menggunakan confusion matrix dan classification report.
 
 - Visualisasi akurasi dan loss training.
 
-6.Konversi Model
+**6.Konversi Model**
 
 Menyimpan model ke format:
 
@@ -45,6 +45,6 @@ Menyimpan model ke format:
 
 - TensorFlow.js (.json dan .bin)
 
-7. Inference (Opsional)
+**7. Inference (Opsional)**
 
 - Mencoba prediksi menggunakan model yang sudah dilatih.
