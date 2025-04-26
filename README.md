@@ -35,7 +35,7 @@ Import Library Menggunakan berbagai library seperti TensorFlow, Keras, scikit-im
 
 - Visualisasi akurasi dan loss training.
 
-**6.Konversi Model**
+**6. Konversi Model**
 
 Menyimpan model ke format:
 
@@ -48,3 +48,12 @@ Menyimpan model ke format:
 **7. Inference (Opsional)**
 
 - Mencoba prediksi menggunakan model yang sudah dilatih.
+
+
+# Cara Menjalankan 
+**1. Install depedencies:**
+
+pip install -r requirements.txt
+
+**2. Jalankan notebook:**
+jupyter notebook Proyek_Klasifikasi_Gambar.ipynb
