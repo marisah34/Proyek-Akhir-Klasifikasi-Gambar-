@@ -56,4 +56,5 @@ Menyimpan model ke format:
 pip install -r requirements.txt
 
 **2. Jalankan notebook:**
+
 jupyter notebook Proyek_Klasifikasi_Gambar.ipynb
